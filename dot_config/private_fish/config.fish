@@ -11,6 +11,8 @@ if not string match -q -- $PNPM_HOME $PATH
 end
 # pnpm end
 
+set -gx EDITOR "$(which nvim)"
+
 # PATH VARS
 set -gx FLUTTER_SDK "~/.dev/flutter/bin"
 set -gx ANDROID_HOME "~/.dev/Android/Sdk"
