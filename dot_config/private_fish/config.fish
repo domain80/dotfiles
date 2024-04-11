@@ -18,6 +18,8 @@ set -gx FLUTTER_SDK "~/.dev/flutter/bin"
 set -gx ANDROID_HOME "~/.dev/Android/Sdk"
 set -gx GOPATH "~/go/bin"
 set -gx JAVA_HOME "/opt/android-studio/jbr/"
+set -gx XDG_CONFIG_HOME "~"
+
 set -gx PATH "$FLUTTER_SDK" $PATH
 set -gx PATH "$GOPATH" $PATH
 
