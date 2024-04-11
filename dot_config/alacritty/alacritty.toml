@@ -1,0 +1,27 @@
+live_config_reload = true
+
+import = [
+    #"~/.config/alacritty/themes/themes/wombat.toml"
+    #"~/.config/alacritty/themes/themes/ubuntu.toml"
+    #"~/.config/alacritty/themes/themes/nordic.toml"
+    #"~/.config/alacritty/themes/themes/moonlight_ii_vscode.toml"
+    #"~/.config/alacritty/themes/themes/gruvbox_material_hard_dark.toml"
+    #"~/.config/alacritty/themes/themes/github_dark_colorblind.toml"
+    "~/.config/alacritty/themes/themes/citylights.toml"
+]
+
+
+[window]
+	dynamic_padding = true
+	dimensions = {columns = 115, lines = 24}
+	decorations_theme_variant = "Dark"
+
+[font]
+	normal = { family = "Monolisa Nerd Font", style = "Retina" }
+	bold = { family = "Monolisa Nerd Font", style = "Bold" }
+	italic = { family = "Monolisa Nerd Font", style = "Italic" }
+	bold_italic = { family = "Monolisa Nerd Font", style = "bold italic" }
+	size = 11
+	builtin_box_drawing = true
+	offset = {x = 0, y = 4}
+	glyph_offset = {x=1, y = 2}
